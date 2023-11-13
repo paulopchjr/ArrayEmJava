@@ -15,10 +15,9 @@ public class AulaArray02 {
 	
 		
 		/*Recuperando os valores do array*/
-		System.out.println("1º Posição do array é  0, o seu valor é = " + notas[0] );
-		System.out.println("2º Posição do array é  1, o seu valor é = " + notas[1] );
-		System.out.println("3º Posição do array é  2, o seu valor é = " + notas[2] );
-		System.out.println("4º Posição do array é  3, o seu valor é = " + notas[3] );
+	for(int posicao =0; posicao < 4 ; posicao++) {
+		System.out.println("O valor da posicção ("+posicao+")  do array , é igual a = "+notas[posicao]);
+	}
 		
 		
 	}
